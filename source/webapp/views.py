@@ -9,3 +9,4 @@ def play_game(request):
             "message": "message",
         }
         return render(request, 'index.html')
+
